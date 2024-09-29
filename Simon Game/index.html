@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="green" data-id="green"></div>
+        <div class="box" id="red"  data-id="red"></div>
+        <div class="box" id="yellow" data-id="yellow"></div>
+        <div class="box" id="blue"  data-id="blue"></div>
+        <div class="circle">
+            <h2>SIMON!</h2>
+            <div class="power">
+                <input type="checkbox" id="power" name="power"><br>
+                <label for="power">Power</label>
+            </div>
+            <div class="strict">
+                <input type="checkbox" id="strict" name="strict"><br>
+                <label for="strict">Strict</label>
+            </div>
+            <div class="start">start</div>
+            <div class="counter">
+                <div class="count"></div>
+                <p>count</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
